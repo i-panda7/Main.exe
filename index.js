@@ -1,9 +1,18 @@
-const discord = require('./Discord/discord.js')
-const Discord = require('discord.js')
-discord(Discord)
-console.log("Starting Module :: ✅ Discord ")
+// index.js
+const path = require('path');
 
-const express = require("./website/express.js")
-const Express = require("express.js")
-express(Express)
-console.log("Starting Module :: ✅ Express ")
+// Path to abhinav.js
+const discordPath = path.join(__dirname, 'discord', 'discord.js');
+
+// Require and execute abhinav.js
+require(discordPath);
+
+
+// index.js
+const path = require('path');
+
+// Path to abhinav.js
+const expressPath = path.join(__dirname, 'website', 'aexpress.js');
+
+// Require and execute abhinav.js
+require(expressPath);
