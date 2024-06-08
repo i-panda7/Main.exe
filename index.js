@@ -12,7 +12,7 @@ require(discordPath);
 const path = require('path');
 
 // Path to abhinav.js
-const expressPath = path.join(__dirname, 'website', 'aexpress.js');
+const expressPath = path.join(__dirname, 'website', 'express.js');
 
 // Require and execute abhinav.js
 require(expressPath);
