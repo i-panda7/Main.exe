@@ -8,8 +8,6 @@ const discordPath = path.join(__dirname, 'discord', 'discord.js');
 require(discordPath);
 
 
-// index.js
-const path = require('path');
 
 // Path to abhinav.js
 const expressPath = path.join(__dirname, 'website', 'express.js');
